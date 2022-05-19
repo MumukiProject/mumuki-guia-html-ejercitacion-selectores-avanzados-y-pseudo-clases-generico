@@ -1,0 +1,1 @@
+> Seleccioná las formas geométricas que no sean círculos y poneles color de fondo `#FF6600`.

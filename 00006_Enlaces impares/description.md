@@ -1,0 +1,1 @@
+> Seleccioná los links impares por tipo y poneles color rojo.

@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.circulo:nth-child(odd)
+  inspection: DeclaresStyle:background-color:#00FF00
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.circulo:first-child
+  inspection: DeclaresStyle:background-color:#0000FF
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.circulo:last-child
+  inspection: DeclaresStyle:background-color:#FFFF00
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.circulo:nth-child(even)
+  inspection: DeclaresStyle:background-color:#FF0000

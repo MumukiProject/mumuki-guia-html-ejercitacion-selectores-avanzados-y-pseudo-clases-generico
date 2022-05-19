@@ -1,0 +1,1 @@
+> Seleccioná todos los productos que tengan descuento y poneles color rojo.

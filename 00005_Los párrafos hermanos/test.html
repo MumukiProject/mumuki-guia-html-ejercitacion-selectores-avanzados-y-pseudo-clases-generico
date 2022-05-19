@@ -1,0 +1,14 @@
+/*<output#*//*#output>*/
+/*<tests#*/it ("el segundo párrafo tiene un color rojo #FF0000",() => {
+  document.querySelectorAll('p')[1].should.have.style("color", "rgb(255, 0, 0)")
+})
+
+it ("el tercer párrafo tiene un color rojo #FF0000",() => {
+  document.querySelectorAll('p')[2].should.have.style("color", "rgb(255, 0, 0)")
+})
+
+it ("el cuarto párrafo tiene un color rojo #FF0000",() => {
+  document.querySelectorAll('p')[3].should.have.style("color", "rgb(255, 0, 0)")
+})/*#tests>*/
+/*<options#*/output_ignore_scripts: true
+output_ignore_styles: true/*#options>*/

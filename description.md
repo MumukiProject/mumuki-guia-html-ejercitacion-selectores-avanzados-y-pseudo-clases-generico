@@ -1,0 +1,1 @@
+Para determinar el estilo de algunos elementos de nuestro HTML trabajaremos con selectores y pseudo clases. En los siguientes ejercicios te daremos un código HTML y deberás modificar el css para aplicar los cambios solicitados. :sunglasses:

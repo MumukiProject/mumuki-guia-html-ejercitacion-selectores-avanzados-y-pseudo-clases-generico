@@ -1,0 +1,115 @@
+/*<index.html#*/<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio de selectores</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="columna">
+      <h1>Selectores</h1>
+      <section>
+        <h2>Ejercicio 1</h2>
+         <div class="ejercicio ejercicio-12 ejercicio-no-circulos">
+          <div></div>
+          <div></div>
+          <div class="circulo"></div>
+          <div></div>
+          <div class="circulo"></div>
+          <div class="circulo"></div>
+          <div></div>
+          <div class="circulo"></div>
+          <div class="circulo"></div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>/*#index.html>*/
+/*<style.css#*/html,
+body {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #f5f5f5;
+}
+
+section {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px 35px 40px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+a,
+span:not(.consigna),
+label,
+input {
+  display: block;
+}
+
+label {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+input {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 400px;
+  width: 100%;
+  margin: 10px 0 20px;
+}
+
+.columna {
+  max-width: 700px;
+  margin: 0 15px;
+}
+
+.consigna {
+  font-weight: bold;
+}
+
+.ejercicio {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.ejercicio-circulos,
+.ejercicio-no-circulos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ejercicio-no-circulos .circulo,
+.ejercicio-circulos .circulo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+}
+
+.ejercicio-no-circulos div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #e0e0e0;
+}
+/*#style.css>*/

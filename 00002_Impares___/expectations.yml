@@ -1,0 +1,5 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:li:nth-child(odd)
+  inspection: DeclaresStyle:color:#FF0000

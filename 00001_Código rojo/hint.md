@@ -1,0 +1,1 @@
+Cuando decimos color rojo nos referimos al color `#FF0000`. :wink:

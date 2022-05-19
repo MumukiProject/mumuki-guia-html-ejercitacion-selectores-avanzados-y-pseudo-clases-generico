@@ -1,0 +1,5 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:a:link:nth-of-type(odd)
+  inspection: DeclaresStyle:color:#FF0000
